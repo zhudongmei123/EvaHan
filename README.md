@@ -51,16 +51,19 @@ For inquiries or to request the registration form, please contact us at TBD.
 
 
 # Data
-The Evahan 2026 data set consists of three datasets, covering English, the Complete Library of the Four Treasures, and Tibetan Buddhist canon text-image data. The data underwent an initial phase of automatic annotation, followed by meticulous correction and refinement by experts in ancient Chinese language and history to ensure the highest quality for both training material and gold-standard texts.
+The Evahan 2026 dataset comprises three datasets, covering image-text pairs: plain text images, mixed image-text images, and handwritten images-text. The data underwent initial automatic annotation, followed by meticulous correction and refinement by experts in classical Chinese language and history to ensure the highest quality of the training materials and gold-standard texts.
 
-- **Dataset A** is a collection of PDF books from the Internet Archive, converted to .tiff format. It is based on real text and is constructed from Project Gutenberg e-books. The dataset contains scanned pages from 10 specific English books.
+- **Dataset A** consists of data selected from the Siku Quanshu (Complete Library of the Four Treasuries), including classics, history, philosophy, and literature, as well as various other ancient books.
 
-- **Dataset B** is selected from the Sikuquanshu (Complete Library of Chinese Classics), which contains data on four ancient books: Classics, History, Philosophy, and Anthology, as well as various other ancient book data.
+- **Dataset B** contains mixed image-text data selected from the Siku Quanshu and other ancient books.
 
-- **Dataset C** consists of Chinese Tripitaka data, including the Korean Tripitaka, the Chinese Tripitaka (TKH) dataset, and the Chinese Multi-Tripitaka (MTH) dataset.
+
+- **Dataset C** includes handwritten ancient books, primarily the Chinese Buddhist canon, including the Korean Buddhist canon, the Chinese Buddhist canon (TKH) dataset, and the Chinese Buddhist canon (MTH) dataset.
 
 
 ## Data Format
+All evaluation data are in the form of image-text pairs, and the text is a txt file in Unicode (UTF-8) format. The specific format is shown in Table 1。
+<img width="624" height="986" alt="bf843a4dbfeb391fc7a4898d157a9890" src="https://github.com/user-attachments/assets/426e501c-9efa-4d25-940a-6fad97350e51" />
 
 
 
