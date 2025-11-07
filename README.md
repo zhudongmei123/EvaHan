@@ -51,50 +51,49 @@ For inquiries or to request the registration form, please contact us at TBD.
 
 
 # Data
-The Evahan 2026 data set consists of three datasets, covering English, the Complete Library of the Four Treasures, and Tibetan Buddhist canon text-image data. The data underwent an initial phase of automatic annotation, followed by meticulous correction and refinement by experts in ancient Chinese language and history to ensure the highest quality for both training material and gold-standard texts.
+The Evahan 2026 dataset comprises three datasets, covering image-text pairs: plain text images, mixed image-text images, and handwritten images-text. The data underwent initial automatic annotation, followed by meticulous correction and refinement by experts in classical Chinese language and history to ensure the highest quality of the training materials and gold-standard texts.
 
-- **Dataset A** is a collection of PDF books from the Internet Archive, converted to .tiff format. It is based on real text and is constructed from Project Gutenberg e-books. The dataset contains scanned pages from 10 specific English books.
+- **Dataset A**  consists of data selected from the Siku Quanshu (Complete Library of the Four Treasuries), including classics, history, philosophy, and literature, as well as various other ancient books.
 
-- **Dataset B** is selected from the Sikuquanshu (Complete Library of Chinese Classics), which contains data on four ancient books: Classics, History, Philosophy, and Anthology, as well as various other ancient book data.
+- **Dataset B**  contains mixed image-text data selected from the Siku Quanshu and other ancient books.
 
-- **Dataset C** consists of Chinese Tripitaka data, including the Korean Tripitaka, the Chinese Tripitaka (TKH) dataset, and the Chinese Multi-Tripitaka (MTH) dataset.
 
+- **Dataset C** includes handwritten ancient books, primarily the Chinese Buddhist canon, including the Korean Buddhist canon, the Chinese Buddhist canon (TKH) dataset, and the Chinese Buddhist canon (MTH) dataset.
 
 ## Data Format
-
+All evaluation data are in the form of image-text pairs, and the text is a txt file in Unicode (UTF-8) format. The specific format is shown in Table 1。
 
 
 ## Training Data
-
-
+The training data consists of three datasets, all in the form of image-text pairs. The text is in traditional Chinese UTF-8 plain text format. After registration, the training data will be sent to your email address. 
 
 ## Test Data
-
-
+The test data also consists of three datasets, also in the form of image-text pairs. More details will be provided to participants before the evaluation. Download links will be available soon.
 
 # Task
-
-
-
+This section offers a detailed description of the tasks encompassed in EvaHan 2026.
+In many Chinese language processing systems, optical character recognition (OCR) is a critical task, often performed in parallel with other processing functions. The accuracy and speed of OCR directly determine the overall system's performance and user experience in downstream applications such as document digitization, information extraction, and intelligent retrieval.
 
 # Evaluation
 
 ## Metrics
+Each team will only have access to the training data. Later, unlabeled test data will also be released. After the evaluation is complete, the labels for the test data will also be released. Tables 2 and 3 provide examples of the scorer output. The evaluation will align the system-generated named entities with the gold standard. Next, OCR will be evaluated: precision, recall, and F1 score will be calculated. BLEU ROUGE-1, ROUGE-2, and ROUGE-L will also be evaluated, bringing the competition's evaluation to multiple metrics. The final ranking of teams will be based on the combined scores.
+Table 2. Example of scorers' output
+
 
 
 
 
 ## Two Modalities
-
+Each participant can submit results for both modes. In the closed mode, each team has limited resources. Each team can only use training data and a pre-trained model. This model is a word embedding pre-trained on a large Traditional Chinese corpus. No other resources are allowed in the closed mode. 
+In the open mode, there are no restrictions on resources, data, or models. Annotated external data, such as processed images or text, may be used. However, each team must disclose all resources, data, and models used in each system in the final report.
 
 
 ## Baselines
-
-
+As a baseline, we will provide the scores obtained on test set using Xunzi_MLLM_minicip_2.6 training on train set without additional resources.
 
 # How to Participate
-
-
+Registration time is mentioned above. Participants will be required to submit their runs and to provide a technical report for the task they participated in.
 
 ## Submitting Runs
 
@@ -107,7 +106,7 @@ The Evahan 2026 data set consists of three datasets, covering English, the Compl
 
 
 # Participants
-
+●Researchers interested in ancient book OCR based on machine learning and multimodal large models.
 
 
 # Organizers
@@ -148,6 +147,15 @@ The Evahan 2026 data set consists of three datasets, covering English, the Compl
 
 
 # Appendix: Selection of Resources
+For more information about the EvaHan shared task and the ALP2025 workshop, visit the official ALP2026 webpage.
+OCR Model  
+●DeepSeek-OCR: https://www.modelscope.cn/models/deepseek-ai/DeepSeek-OCR
+●PaddleOCR-VL: https://www.modelscope.cn/models/PaddlePaddle/PaddleOCR-VL
+●mscoder/duguang-ocr-onnx-v2: https://www.modelscope.cn/models/mscoder/duguang-ocr-onnx-v2
+●RapidAI/RapidOCR: https://www.modelscope.cn/models/RapidAI/RapidOCR
+●iic/cv_convnextTiny_ocr-recognition-document_damo: https://www.modelscope.cn/models/iic/cv_convnextTiny_ocr-recognition-document_damo
+
+
 
 
 
