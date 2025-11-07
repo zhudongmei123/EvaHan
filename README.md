@@ -60,21 +60,24 @@ The Evahan 2026 dataset comprises three datasets, covering image-text pairs: pla
 - **Dataset C** includes handwritten ancient books, primarily the Chinese Buddhist canon, including the Korean Buddhist canon, the Chinese Buddhist canon (TKH) dataset, and the Chinese Buddhist canon (MTH) dataset.
 
 ## Data Format
+All evaluation data are in the form of image-text pairs, and the text is a txt file in Unicode (UTF-8) format. The specific format is shown in Table 1。
+Table 1. Ancient Chinese OCR Corpus Example
+picture	text
+ 	
 
 
 
 ## Training Data
-
-
+The training data consists of three datasets, all in the form of image-text pairs. The text is in traditional Chinese UTF-8 plain text format. After registration, the training data will be sent to your email address. 
 
 ## Test Data
-
-
+The test data also consists of three datasets, also in the form of image-text pairs. More details will be provided to participants before the evaluation. Download links will be available soon.
 
 # Task
+This section offers a detailed description of the tasks encompassed in EvaHan 2026.
 
-
-
+# OCR
+In many Chinese language processing systems, optical character recognition (OCR) is a critical task, often performed in parallel with other processing functions. The accuracy and speed of OCR directly determine the overall system's performance and user experience in downstream applications such as document digitization, information extraction, and intelligent retrieval.
 
 # Evaluation
 
