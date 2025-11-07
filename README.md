@@ -134,9 +134,9 @@ The Evahan 2026 data set consists of three datasets, covering English, the Compl
 
 - Jieqiong Li, College of Information Management, Nanjing Agricultural University, China
 
-- Ruifeng Wu,College of Information Management, Nanjing Agricultural University, China
+- Ruifeng Wu, College of Information Management, Nanjing Agricultural University, China
 
-- Junyi Yang，College of Information Management, Nanjing Agricultural University, China
+- Junyi Yang, College of Information Management, Nanjing Agricultural University, China
 
 - Yue Zhu, School of Chinese Language and Literature, Nanjing Normal University, China
 
