@@ -147,7 +147,8 @@ examples of the scorer output. The evaluation will align the
 system-generated text with the gold standard. Next, OCR will
 be evaluated: accuracy, recall, and F1 score will be calculated. BLEU
 ROUGE-1, ROUGE-2, and ROUGE-L will also be evaluated, bringing the
-competition\'s evaluation to multiple metrics. The final ranking of
+competition\'s evaluation to multiple metrics. This evaluation adds layout analysis metrics: mAP and IoU. T
+he team's final ranking will be based on the overall score. The final ranking of
 teams will be based on the combined scores.
 
 Table 2. Example of scorers' output
@@ -158,9 +159,16 @@ Table 2. Example of scorers' output
 
 Table 3. Example of scorers' output
 
-| Task | Accuracy | Recall | F1 Score |
-|------|-----------|--------|----------|
-| OCR  | 89.00     | 86.00  | 88.83    |
+| Task | Accuracy | Recall | F1_Score |
+|------|----------|--------|----------|
+| OCR  |  52.75   | 73.98  |  63.89   |
+
+Table 4. Example of scorers' output
+
+|         Task         |   mAP    | IoU    | 
+|----------------------|--------- |--------|
+| Page Layout Analysis |  88.20   | 89.00  | 
+
 
 # Two Modalities
 
