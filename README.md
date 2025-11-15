@@ -145,7 +145,7 @@ test data will also be released. After the evaluation is complete, the
 labels for the test data will also be released. Tables 2 and 3 provide
 examples of the scorer output. The evaluation will align the
 system-generated text with the gold standard. Next, OCR will
-be evaluated: precision, recall, and F1 score will be calculated. BLEU
+be evaluated: accuracy, recall, and F1 score will be calculated. BLEU
 ROUGE-1, ROUGE-2, and ROUGE-L will also be evaluated, bringing the
 competition\'s evaluation to multiple metrics. The final ranking of
 teams will be based on the combined scores.
@@ -158,7 +158,7 @@ Table 2. Example of scorers' output
 
 Table 3. Example of scorers' output
 
-| Task | Precision | Recall | F1 Score |
+| Task | Accuracy | Recall | F1 Score |
 |------|-----------|--------|----------|
 | OCR  | 89.00     | 86.00  | 88.83    |
 
