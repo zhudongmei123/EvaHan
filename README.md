@@ -175,7 +175,7 @@ closed mode.
 # Baselines
 
 As a baseline, we will provide the scores obtained on test set using
-Xunzi_MLLM_minicip_2.6 training on train set without additional
+Xunzi_Qwen2_VL_7B_Instruct training on train set without additional
 resources.
 
 # How to Participate
