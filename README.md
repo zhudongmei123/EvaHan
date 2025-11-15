@@ -144,7 +144,7 @@ Each team will only have access to the training data. Later, unlabeled
 test data will also be released. After the evaluation is complete, the
 labels for the test data will also be released. Tables 2 and 3 provide
 examples of the scorer output. The evaluation will align the
-system-generated named entities with the gold standard. Next, OCR will
+system-generated text with the gold standard. Next, OCR will
 be evaluated: precision, recall, and F1 score will be calculated. BLEU
 ROUGE-1, ROUGE-2, and ROUGE-L will also be evaluated, bringing the
 competition\'s evaluation to multiple metrics. The final ranking of
