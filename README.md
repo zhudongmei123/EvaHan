@@ -181,7 +181,7 @@ In the open mode, there are no restrictions on resources, data, or models. Annot
 # Baselines
 
 As a baseline, we will provide the scores obtained on test set using
-Xunzi_Qwen2_VL_7B_Instruct (https://huggingface.co/RAY5/Xunzi_Qwen2_VL_7B_Instruct) training on train set without additional
+[Xunzi_Qwen2_VL_7B_Instruct (https://huggingface.co/RAY5/Xunzi_Qwen2_VL_7B_Instruct)](https://huggingface.co/RAY5/Xunzi_Qwen2_VL_7B_Instruct) training on train set without additional
 resources.
 
 # How to Participate
@@ -190,7 +190,7 @@ Registration time is mentioned above. Participants will be required to
 submit their runs and to provide a technical report for the task they
 participated in.
 
-## Submitting Runs（提交2次结果，提交源代码，复测）
+## Submitting Runs
 
 Each team can submit runs for two tasks. A run should be produced
 according to the closed modality. The second run will be produced
@@ -202,14 +202,7 @@ participants have to follow these instructions to complete their
 submission:
 
 -   The annotated results should be submitted as three plain text files
-    encoded in UTF-8 (four-byte encoding).The output format is shown in
-    Table 4 (the names of the test data images cannot be modified).
-
-Table 4. Example of format' output
-
-| Format |
-|--------|
-| { "image_name": " xxx.png", "ocr_result ": "xxxxxxx"} |
+    encoded in UTF-8 (four-byte encoding). The specific submission format will be released along with the pre-trained dataset.
 
 -   Please submit the annotated test set results via
     [evahan2026@gmail.com](mailto:evahan2025@gmail.com). before February
@@ -221,32 +214,16 @@ Table 4. Example of format' output
 -   Submit your trained code via email so the organizers can reproduce
     the results.
 
-# Writing the Technical Report（比赛结果，没有报告不予承认）
+# Writing the Technical Report 
 
 All the reports must:
 
-Technical reports will be included in the proceedings of the **third
-Workshop on Ancient Language Processing (ALP2026)**, co-located with
-NAACL 2025, which will take place from May 11 to 16，2026, inMallorca,
-Spain. The reports will be published as short papers alongside the NAACL
-proceedings.
-
-• be submitted through the START platform (URL will be announced on
-the [ALP2026
-webpage](https://www.ancientnlp.com/alp2025/call_for_papers/))
-
-• use the [official ACL style
-templates](https://acl-org.github.io/ACLPUB/formatting.html)
-
-• not exceed four (4) pages of content (excluding references)
-
-• include (at least) the following sections: description of the system,
-results, discussion, and references.
-
-Reports will undergo a light review process to ensure correctness of the
-format, accuracy of results and rankings, and clarity of exposition. If
-necessary, authors will be contacted for corrections prior to
-publication.
+Technical reports will be included in the proceedings of the **Fifteenth biennial Language Resources and Evaluation Conference(LREC 2026)**, which will take place from May 11 to 16，2026, inMallorca, Spain. The reports will be published as short papers alongside the NAACL proceedings.
+Submission is electronic, using the Softconf START conference management system via the link: 
+https://softconf.com/lrec2026/main
+Submissions should be 4 to 8 pages in length (excluding references and potential Ethics Statements). Submissions should follow the LREC stylesheet, available on the conference website on the Author’s kit page. All templates are also available from this page. 
+At the time of submission, authors are offered the opportunity to share related language resources with the community. All repository entries are linked to the LRE Map, which provides metadata for the resource.  
+Accepted papers will appear in the conference proceedings, which include both oral and poster papers in the same format. Determination of the presentation format (oral vs. poster) is based solely on an assessment of the optimal method of communication (more or less interactive), given the paper content. 
 
 # Participant
 
@@ -258,9 +235,6 @@ publication.
 -   **Dongbo Wang**, College of Information Management, Nanjing
     Agricultural University, China
 
-```{=html}
-<!-- -->
-```
 -   **Bin Li**, School of Chinese Language and Literature, Nanjing
     Normal University, China
 
@@ -287,23 +261,23 @@ publication.
 -   **Jieqiong Li**, College of Information Management, Nanjing
     Agricultural University, China
 
--   Ruifeng Wu,College of Information Management, Nanjing Agricultural
+-  ** Ruifeng Wu**,College of Information Management, Nanjing Agricultural
     University, China
 
--   Junyi Yang，College of Information Management, Nanjing Agricultural
+-   **Junyi Yang**，College of Information Management, Nanjing Agricultural
     University, China
 
--   Junjie Li, School of Chinese Language and Literature, Nanjing Normal
+-   **Junjie Li**, School of Chinese Language and Literature, Nanjing Normal
     University, China
 
--   Zhixing Xu, School of Chinese Language and Literature, Nanjing
+-   **Zhixing Xu**, School of Chinese Language and Literature, Nanjing
     Normal University, China
 
 # Appendix: Selection of Resources
 
-For more information about the EvaHan shared task and the ALP2025
-workshop, visit the [official ALP2026
-webpage](https://www.ancientnlp.com/alp2025/).
+For more information about the EvaHan shared task and the ALP2026
+workshop, visit the[ [official ALP2026
+webpage](https://www.ancientnlp.com/alp2025/)](https://lrec2026.info/).
 
 OCR Model
 
