@@ -261,7 +261,7 @@ Accepted papers will appear in the conference proceedings, which include both or
 -   **Jieqiong Li**, College of Information Management, Nanjing
     Agricultural University, China
 
--  ** Ruifeng Wu**,College of Information Management, Nanjing Agricultural
+-  **Ruifeng Wu**,College of Information Management, Nanjing Agricultural
     University, China
 
 -   **Junyi Yang**，College of Information Management, Nanjing Agricultural
@@ -276,8 +276,8 @@ Accepted papers will appear in the conference proceedings, which include both or
 # Appendix: Selection of Resources
 
 For more information about the EvaHan shared task and the ALP2026
-workshop, visit the[ [official ALP2026
-webpage](https://www.ancientnlp.com/alp2025/)](https://lrec2026.info/).
+workshop, visit the[official ALP2026
+webpage](https://lrec2026.info/).
 
 OCR Model
 
