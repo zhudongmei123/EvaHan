@@ -113,7 +113,7 @@ All evaluation data are in the form of image-text pairs, and the text is a txt f
 
 **Training Data**
 
-# The training data consists of three datasets, all in the form of image-text pairs. The text is in traditional Chinese UTF-8 plain text format. After registration, the training data will be sent to your email address. 
+The training data consists of three datasets, all in the form of image-text pairs. The text is in traditional Chinese UTF-8 plain text format. After registration, the training data will be sent to your email address. 
 
 # Test Data 
 
