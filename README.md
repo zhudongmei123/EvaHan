@@ -71,7 +71,7 @@ After completing the registration process, participants will receive
 instructions for downloading the training dataset, which includes
 image--text pairs from ancient Chinese texts for OCR.
 
-3。**Submitting Results and Reports:**\
+3.**Submitting Results and Reports:**\
 Participants must use the provided test data to generate results and
 submit their system outputs and a technical report as per the shared
 task schedule.
