@@ -149,19 +149,19 @@ competition\'s evaluation to multiple metrics. This evaluation adds layout analy
 he team's final ranking will be based on the overall score. The final ranking of
 teams will be based on the combined scores.
 
-Table 2. Example of scorers' output
+Table 2.  Performance Evaluation of the OCR Module on Ancient Texts Using Generation Metrics
 
 | Task | BLEU | ROUGE-1 | ROUGE-2 | ROUGE-L |
 |------|------|---------|---------|---------|
 | OCR  | 52.75 | 73.98  | 63.89   | 72.17   |
 
-Table 3. Example of scorers' output
+Table 3. Character-Level Recognition Performance of the OCR Module
 
 | Task | Accuracy | Recall | F1_Score |
 |------|----------|--------|----------|
 | OCR  |  52.75   | 73.98  |  63.89   |
 
-Table 4. Example of scorers' output
+Table 4. Efficacy of the Layout Analysis Module for Page Segmentation
 
 |         Task         |   mAP    | IoU    | 
 |----------------------|--------- |--------|
@@ -176,12 +176,12 @@ and a pre-trained model. This model is a word embedding pre-trained on a
 large Traditional Chinese corpus. No other resources are allowed in the
 closed mode.
 
-## In the open mode, there are no restrictions on resources, data, or models. Annotated external data, such as processed images or text, may be used. However, each team must disclose all resources, data, and models used in each system in the final report.
+In the open mode, there are no restrictions on resources, data, or models. Annotated external data, such as processed images or text, may be used. However, each team must disclose all resources, data, and models used in each system in the final report.
 
 # Baselines
 
 As a baseline, we will provide the scores obtained on test set using
-Xunzi_Qwen2_VL_7B_Instruct training on train set without additional
+[Xunzi_Qwen2_VL_7B_Instruct] training on train set without additional
 resources.
 
 # How to Participate
