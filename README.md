@@ -181,7 +181,7 @@ In the open mode, there are no restrictions on resources, data, or models. Annot
 # Baselines
 
 As a baseline, we will provide the scores obtained on test set using
-Xunzi_Qwen2_VL_7B_Instruct (https://huggingface.co/RAY5/Xunzi_Qwen2_VL_7B_Instruct/tree/main/Xunzi_Qwen2_VL_7B_Instruct) training on train set without additional
+Xunzi_Qwen2_VL_7B_Instruct (https://huggingface.co/RAY5/Xunzi_Qwen2_VL_7B_Instruct) training on train set without additional
 resources.
 
 # How to Participate
