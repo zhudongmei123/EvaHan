@@ -128,8 +128,7 @@ EvaHan 2026.
 
 **OCR**
 
-In many Chinese language processing systems, optical character
-recognition (OCR) is a critical task, often performed in parallel with
+In many Chinese language processing systems,OCR is a critical task, often performed in parallel with
 other processing functions. The accuracy and speed of OCR directly
 determine the overall system\'s performance and user experience in
 downstream applications such as document digitization, information
