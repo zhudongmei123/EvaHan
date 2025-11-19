@@ -96,8 +96,7 @@ philosophy, and literature, as well as various other ancient books.
 Quanshu* and other ancient books.
 
 ● Dataset C includes handwritten ancient books, primarily the Chinese
-Buddhist canon, including the Korean Buddhist canon, the Chinese
-Buddhist canon (TKH) dataset, and the Chinese Buddhist canon (MTH)
+Buddhist canon, including the Chinese Buddhist canon (TKH) dataset, and the Chinese Buddhist canon (MTH)
 dataset.
 
 **Data Format**
