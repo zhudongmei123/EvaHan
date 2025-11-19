@@ -61,8 +61,8 @@ ancient Chinese.
 
 To participate in EvaHan 2026, you must complete the following steps:
 
-1.**Registration:\
-**Submit a registration form to officially register your team for the
+1.**Registration:**\
+Submit a registration form to officially register your team for the
 task. Registration is open from December 1, 2025, to January 30, 2026.
 Only registered participants will gain access to the training dataset.
 
@@ -71,7 +71,7 @@ After completing the registration process, participants will receive
 instructions for downloading the training dataset, which includes
 image--text pairs from ancient Chinese texts for OCR.
 
-3**.Submitting Results and Reports:**\
+3。**Submitting Results and Reports:**\
 Participants must use the provided test data to generate results and
 submit their system outputs and a technical report as per the shared
 task schedule.
