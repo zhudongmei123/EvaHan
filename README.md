@@ -279,7 +279,7 @@ At the time of submission, authors are offered the opportunity to share related 
 # Appendix: Selection of Resources
 
 For more information about the EvaHan shared task and the ALP2026
-workshop, visit the[official ALP2026
+workshop, visit the [official ALP2026
 webpage](https://lrec2026.info/).
 
 OCR Model
