@@ -218,12 +218,15 @@ submission:
 
 All the reports must:
 
-Technical reports will be included in the proceedings of the **Fifteenth biennial Language Resources and Evaluation Conference(LREC 2026)**, which will take place from May 11 to 16，2026, inMallorca, Spain. The reports will be published as short papers alongside the NAACL proceedings.
+Technical reports will be included in the proceedings of the **Fifteenth biennial Language Resources and Evaluation Conference(LREC 2026)**, which will take place from May 11 to 16，2026, inMallorca, Spain. 
+
 Submission is electronic, using the Softconf START conference management system via the link: 
 https://softconf.com/lrec2026/main
+
 Submissions should be 4 to 8 pages in length (excluding references and potential Ethics Statements). Submissions should follow the LREC stylesheet, available on the conference website on the Author’s kit page. All templates are also available from this page. 
+
 At the time of submission, authors are offered the opportunity to share related language resources with the community. All repository entries are linked to the LRE Map, which provides metadata for the resource.  
-Accepted papers will appear in the conference proceedings, which include both oral and poster papers in the same format. Determination of the presentation format (oral vs. poster) is based solely on an assessment of the optimal method of communication (more or less interactive), given the paper content. 
+
 
 # Participant
 
