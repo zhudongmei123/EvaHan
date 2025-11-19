@@ -101,7 +101,7 @@ dataset.
 
 **Data Format**
 
-## All evaluation data are in the form of image-text pairs, and the text is a txt file in Unicode (UTF-8) format. The specific format is shown in Table 1。
+All evaluation data are in the form of image-text pairs, and the text is a txt file in Unicode (UTF-8) format. The specific format is shown in Table 1。
 
 ##  Table 1. Ancient Chinese OCR Corpus Example
 
